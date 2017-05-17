@@ -6,8 +6,8 @@
 crontab -e
 ~~~~
 
-and add line: 
+and add this line to execute every 3 minutes: 
 
 ~~~~
-*/3 * * * * /home/fabian/Modelos/SCRIPT.sh
+*/3 * * * * <YOURPATH>/SCRIPT.sh
 ~~~~
